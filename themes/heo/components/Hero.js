@@ -84,7 +84,7 @@ function Banner(props) {
       <div>
         <div
           id="banner-title"
-          className="flex flex-col absolute top-10 left-10 group-hover:bg-blue-200 group-hover:bg-opacity-5"
+          className="flex flex-col absolute top-10 left-10 group-hover:bg-blue-200 group-hover:bg-opacity-90"
           // 调整透明度值
         >
           <div className="text-4xl font-bold mb-3 dark:text-white">
