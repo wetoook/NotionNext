@@ -27,15 +27,16 @@ const Hero = props => {
           'animate__animated animate__fadeIn animate__fast recent-post-top rounded-[12px] 2xl:px-5 recent-top-post-group max-w-[86rem] overflow-x-scroll w-full mx-auto flex-row flex-nowrap flex xl:space-x-3 relative'
         }
       >
-        {/* 左侧banner组 */}
-        <BannerGroup {...props} />
-
+        {/* 左侧banner组已被移除 */}
         {/* 右侧置顶文章组 */}
         <TopGroup {...props} />
       </div>
     </div>
   )
 }
+
+// ...（其余的组件保持不变）
+
 
 /**
  * 英雄区左侧banner组
