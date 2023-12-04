@@ -43,7 +43,7 @@ const CONFIG = {
   HEO_GROUP_ICONS: [
     {
       title_1: 'AfterEffect',
-      img_1: 'https://lmg.jj20.com/up/allimg/1111/06051Q40502/1P605140502-2-1200.jpg',
+      img_1: '/images/heo/1P605140502-2-1200.jpg',
       color_1: '#989bf8',
       title_2: 'Sketch',
       img_2: '/images/heo/2023e0ded7b724a39f12d59c3dc8fbdc7cbe074202.webp',
