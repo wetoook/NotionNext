@@ -10,9 +10,9 @@ const CONFIG = {
   ],
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '与你分享',
-  HEO_HERO_TITLE_2: '让世界更开阔',
-  HEO_HERO_TITLE_3: '',
+  HEO_HERO_TITLE_1: '除了人格以外，人生最大的损失，莫过于失掉自信心了。',
+  HEO_HERO_TITLE_2: '——培尔辛',
+  HEO_HERO_TITLE_3: '点击随便看看',
   HEO_HERO_TITLE_4: '新版上线',
   HEO_HERO_TITLE_5: '美股2024年会如何？',
   HEO_HERO_TITLE_LINK: 'sq',
