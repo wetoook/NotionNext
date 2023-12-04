@@ -84,8 +84,8 @@ function Banner(props) {
       <div>
         <div
           id="banner-title"
-          className="flex flex-col absolute top-10 left-10 group-hover:bg-blue-200 group-hover:bg-opacity-90"
-          // 调整透明度值
+          className="flex flex-col absolute top-10 left-10"
+          style={{ backgroundColor: 'rgba(0, 50, 255, 0.3)' }}
         >
           <div className="text-4xl font-bold mb-3 dark:text-white">
             {siteConfig('HEO_HERO_TITLE_1', null, CONFIG)}
@@ -116,6 +116,7 @@ function Banner(props) {
     </div>
   );
 }
+
 
 /**
  * 图标滚动标签组
