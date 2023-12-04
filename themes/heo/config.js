@@ -39,8 +39,8 @@ const CONFIG = {
   ],
   HEO_INFO_CARD_URL: 'https://github.com/tangly1024/NotionNext', // 个人资料底部按钮链接
   
-// 用户技能图标 ; 两两一组
-  GROUP_ICONS: [
+ // 用户技能图标
+  HEO_GROUP_ICONS: [
     {
       title_1: 'AfterEffect',
       img_1: '/images/heo/20239df3f66615b532ce571eac6d14ff21cf072602.webp',
@@ -98,6 +98,7 @@ const CONFIG = {
       color_2: '#1f1f1f'
     }
   ],
+
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
