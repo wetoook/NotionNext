@@ -75,8 +75,7 @@ function Banner(props) {
       id="banners"
       onClick={handleClickBanner}
       className="hidden xl:flex xl:flex-col group h-full bg-white dark:bg-[#1e1e1e] rounded-xl border dark:border-gray-700 mb-3 relative overflow-hidden"
-  
-      style={{ backgroundImage: 'url("https://img.lanrentuku.com/img/allimg/2001/15803672899688.jpg")' }}// 图片
+      style={{ backgroundImage: 'url("/imgs/heo/123.jpg")', backgroundSize: 'cover' }}
     >
       <div>
         <div id="banner-title" className="flex flex-col absolute top-10 left-10">
@@ -99,7 +98,7 @@ function Banner(props) {
           }
         >
           <div className="ml-12 -translate-x-32 group-hover:translate-x-0 duration-300 transition-all ease-in">
-            <div className="text-7xl text-white font-extrabold">随机看看</div>
+            <div className="text-7xl text-white font-extrabold">随便逛逛</div>
             <div className="-ml-3 text-gray-300">
               <ArrowSmallRight className={'w-24 h-24 stroke-2'} />
             </div>
@@ -109,6 +108,7 @@ function Banner(props) {
     </div>
   );
 }
+
 
 // 移除斜向滚动的图标组件 TagsGroupBar
 
