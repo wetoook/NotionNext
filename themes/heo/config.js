@@ -5,7 +5,7 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '', url: 'https://blog.tangly1024.com' },
+    { title: '欢迎光临', url: 'https://blog.tangly1024.com' },
     { title: '', url: 'https://docs.tangly1024.com' }
   ],
 
@@ -107,7 +107,7 @@ const CONFIG = {
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
-  HEO_MENU_INDEX: true, // 显示首页
+  HEO_MENU_INDEX: false, // 显示首页
   HEO_MENU_CATEGORY: true, // 显示分类
   HEO_MENU_TAG: true, // 显示标签
   HEO_MENU_ARCHIVE: false, // 显示归档
