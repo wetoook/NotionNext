@@ -82,7 +82,11 @@ function Banner(props) {
       }}
     >
       <div>
-        <div id="banner-title" className="flex flex-col absolute top-10 left-10">
+        <div
+          id="banner-title"
+          className="flex flex-col absolute top-10 left-10 group-hover:bg-blue-200 group-hover:bg-opacity-30"
+          // 调整透明度值
+        >
           <div className="text-4xl font-bold mb-3 dark:text-white">
             {siteConfig('HEO_HERO_TITLE_1', null, CONFIG)}
             <br />
@@ -112,11 +116,6 @@ function Banner(props) {
     </div>
   );
 }
-
-
-
-// 移除斜向滚动的图标组件 TagsGroupBar
-
 
 /**
  * 图标滚动标签组
