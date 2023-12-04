@@ -40,7 +40,7 @@ const CONFIG = {
   HEO_INFO_CARD_URL: 'https://github.com/tangly1024/NotionNext', // 个人资料底部按钮链接
   
  // 用户技能图标
-  HEO_GROUP_ICONS: false,
+  HEO_GROUP_ICONS: { title: '必看精选', url: '/tag/必看精选' },
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
