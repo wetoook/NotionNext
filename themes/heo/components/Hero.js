@@ -77,7 +77,7 @@ function Banner(props) {
       className="hidden xl:flex xl:flex-col group h-full bg-white dark:bg-[#1e1e1e] rounded-xl border dark:border-gray-700 mb-3 relative overflow-hidden"
     >
       {/* Online background image added */}
-      <div style={{ backgroundImage: 'url("https://www.123.com/your-image.jpg")' }}>
+      <div style={{ backgroundImage: 'url("https://doc-fd.zol-img.com.cn/g5/M00/01/0A/ChMkJ1efJpuIXH6qAAHxoE5cHf4AAUDwAPNEJAAAfG4780.jpg")' }}>
         <div id="banner-title" className="flex flex-col absolute top-10 left-10">
           <div className="text-4xl font-bold mb-3  dark:text-white">
             {siteConfig('HEO_HERO_TITLE_1', null, CONFIG)}
