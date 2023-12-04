@@ -59,20 +59,15 @@ function BannerGroup(props) {
 // ...（其余的组件保持不变）
 
 
-/**
- * 英雄区左上角banner动图
- * @returns
- */
+// 英雄区左上角banner动图
 function Banner(props) {
-  const router = useRouter()
-  const { latestPosts } = props
-  /**
-   * 随机跳转文章
-   */
+  const router = useRouter();
+  const { latestPosts } = props;
+
   function handleClickBanner() {
-    const randomIndex = Math.floor(Math.random() * latestPosts.length)
-    const randomPost = latestPosts[randomIndex]
-    router.push(`${siteConfig('SUB_PATH', '')}/${randomPost?.slug}`)
+    const randomIndex = Math.floor(Math.random() * latestPosts.length);
+    const randomPost = latestPosts[randomIndex];
+    router.push(`${siteConfig('SUB_PATH', '')}/${randomPost?.slug}`);
   }
 
   return (
@@ -81,38 +76,41 @@ function Banner(props) {
       onClick={handleClickBanner}
       className="hidden xl:flex xl:flex-col group h-full bg-white dark:bg-[#1e1e1e] rounded-xl border dark:border-gray-700 mb-3 relative overflow-hidden"
     >
-      <div id="banner-title" className="flex flex-col absolute top-10 left-10">
-        <div className="text-4xl font-bold mb-3  dark:text-white">
-          {siteConfig('HEO_HERO_TITLE_1', null, CONFIG)}
-          <br />
-          {siteConfig('HEO_HERO_TITLE_2', null, CONFIG)}
+      {/* Online background image added */}
+      <div style={{ backgroundImage: 'url("https://www.123.com/your-image.jpg")' }}>
+        <div id="banner-title" className="flex flex-col absolute top-10 left-10">
+          <div className="text-4xl font-bold mb-3  dark:text-white">
+            {siteConfig('HEO_HERO_TITLE_1', null, CONFIG)}
+            <br />
+            {siteConfig('HEO_HERO_TITLE_2', null, CONFIG)}
+          </div>
+          <div className="text-xs text-gray-600  dark:text-gray-200">
+            {siteConfig('HEO_HERO_TITLE_3', null, CONFIG)}
+          </div>
         </div>
-        <div className="text-xs text-gray-600  dark:text-gray-200">
-          {siteConfig('HEO_HERO_TITLE_3', null, CONFIG)}
-        </div>
-      </div>
 
-      {/* 斜向滚动的图标 */}
-      <TagsGroupBar />
-
-      {/* 遮罩 */}
-      <div
-        id="banner-cover"
-        style={{ backdropFilter: 'blur(15px)' }}
-        className={
-          'rounded-xl overflow-hidden opacity-0 group-hover:opacity-100 duration-300 transition-all bg-[#4259efdd] dark:bg-[#dca846] dark:text-white cursor-pointer absolute w-full h-full top-0 flex justify-start items-center'
-        }
-      >
-        <div className="ml-12 -translate-x-32 group-hover:translate-x-0 duration-300 transition-all ease-in">
-          <div className="text-7xl text-white font-extrabold">随便逛逛</div>
-          <div className="-ml-3 text-gray-300">
-            <ArrowSmallRight className={'w-24 h-24 stroke-2'} />
+        {/* 遮罩 */}
+        <div
+          id="banner-cover"
+          style={{ backdropFilter: 'blur(15px)' }}
+          className={
+            'rounded-xl overflow-hidden opacity-0 group-hover:opacity-100 duration-300 transition-all bg-[#4259efdd] dark:bg-[#dca846] dark:text-white cursor-pointer absolute w-full h-full top-0 flex justify-start items-center'
+          }
+        >
+          <div className="ml-12 -translate-x-32 group-hover:translate-x-0 duration-300 transition-all ease-in">
+            <div className="text-7xl text-white font-extrabold">随便逛逛</div>
+            <div className="-ml-3 text-gray-300">
+              <ArrowSmallRight className={'w-24 h-24 stroke-2'} />
+            </div>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
+
+// 移除斜向滚动的图标组件 TagsGroupBar
+
 
 /**
  * 图标滚动标签组
