@@ -42,12 +42,7 @@ const CONFIG = {
  // 用户技能图标
   HEO_GROUP_ICONS: [
     {
-      title_1: 'Git',
-      img_1: '',
-      color_1: '',
-      title_2: 'Rhino',
-      img_2: '',
-      color_2: ''
+     
     }
   ],
 
