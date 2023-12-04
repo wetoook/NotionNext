@@ -75,7 +75,7 @@ function Banner(props) {
       id="banners"
       onClick={handleClickBanner}
       className="hidden xl:flex xl:flex-col group h-full bg-white dark:bg-[#1e1e1e] rounded-xl border dark:border-gray-700 mb-3 relative overflow-hidden"
-      style={{ backgroundImage: 'url("/imgs/heo/123.jpg")', backgroundSize: 'cover' }}
+      style={{ backgroundImage: 'url("/images/heo/123.jpg")', backgroundSize: 'cover' }}
     >
       <div>
         <div id="banner-title" className="flex flex-col absolute top-10 left-10">
