@@ -10,9 +10,9 @@ const CONFIG = {
   ],
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '圣诞节',
+  HEO_HERO_TITLE_1: ' ',
   HEO_HERO_TITLE_2: '',
-  HEO_HERO_TITLE_3: '即将到来',
+  HEO_HERO_TITLE_3: ' ',
   HEO_HERO_TITLE_4: '新版上线',
   HEO_HERO_TITLE_5: '美股2024年会如何？',
   HEO_HERO_TITLE_LINK: 'sq',
