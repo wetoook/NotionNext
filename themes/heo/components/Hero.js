@@ -75,7 +75,8 @@ function Banner(props) {
       id="banners"
       onClick={handleClickBanner}
       className="hidden xl:flex xl:flex-col group h-full bg-white dark:bg-[#1e1e1e] rounded-xl border dark:border-gray-700 mb-3 relative overflow-hidden"
-      style={{ backgroundImage: 'url("https://doc-fd.zol-img.com.cn/g5/M00/01/0A/ChMkJ1efJpuIXH6qAAHxoE5cHf4AAUDwAPNEJAAAfG4780.jpg")' }}
+  
+      style={{ backgroundImage: 'url("https://n.sinaimg.cn/sinakd20211224ac/88/w1080h608/20211224/b5e5-2286ca46c3a0e94b55adbe0225b3208e.jpg")' }}// 图片
     >
       <div>
         <div id="banner-title" className="flex flex-col absolute top-10 left-10">
@@ -98,7 +99,7 @@ function Banner(props) {
           }
         >
           <div className="ml-12 -translate-x-32 group-hover:translate-x-0 duration-300 transition-all ease-in">
-            <div className="text-7xl text-white font-extrabold">随便逛逛</div>
+            <div className="text-7xl text-white font-extrabold">随机看看</div>
             <div className="-ml-3 text-gray-300">
               <ArrowSmallRight className={'w-24 h-24 stroke-2'} />
             </div>
