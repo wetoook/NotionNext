@@ -76,7 +76,7 @@ function Banner(props) {
       onClick={handleClickBanner}
       className="hidden xl:flex xl:flex-col group h-full bg-white dark:bg-[#1e1e1e] rounded-xl border dark:border-gray-700 mb-3 relative overflow-hidden"
   
-      style={{ backgroundImage: 'url("https://n.sinaimg.cn/sinakd20211224ac/88/w1080h608/20211224/b5e5-2286ca46c3a0e94b55adbe0225b3208e.jpg")' }}// 图片
+      style={{ backgroundImage: 'url("https://img.lanrentuku.com/img/allimg/2001/15803672899688.jpg")' }}// 图片
     >
       <div>
         <div id="banner-title" className="flex flex-col absolute top-10 left-10">
