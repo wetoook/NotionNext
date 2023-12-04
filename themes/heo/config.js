@@ -40,10 +40,8 @@ const CONFIG = {
   HEO_INFO_CARD_URL: 'https://github.com/tangly1024/NotionNext', // 个人资料底部按钮链接
   
  // 用户技能图标
-  HEO_GROUP_ICONS: [
-    {
-     
-    }
+  HEO_GROUP_ICONS: [ 
+    { title: '', url: 'https://docs.tangly1024.com' }
   ],
 
 
