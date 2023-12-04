@@ -38,6 +38,18 @@ const CONFIG = {
     '🧱 团队小组发动机'
   ],
   HEO_INFO_CARD_URL: 'https://github.com/tangly1024/NotionNext', // 个人资料底部按钮链接
+  
+  // 用户技能图标 ; 两两一组
+  GROUP_ICONS: [
+    {
+      title_1: 'AfterEffect',
+      img_1: '/images/heo/20239df3f66615b532ce571eac6d14ff21cf072602.webp',
+      color_1: '#989bf8',
+      title_2: 'Sketch',
+      img_2: '/images/heo/2023e0ded7b724a39f12d59c3dc8fbdc7cbe074202.webp',
+      color_2: '#ffffff'
+    },
+  ],
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
