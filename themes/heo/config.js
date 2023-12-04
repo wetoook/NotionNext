@@ -41,11 +41,11 @@ const CONFIG = {
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
-    {
-      title_1: 'AfterEffect',
-      img_1: 'https://pic.616pic.com/photoone/00/04/18/618ce69f7a3326530.jpg',
-    },
-  ],
+  {
+    title_1: 'AfterEffect',
+    background_img_1: 'https://pic.616pic.com/photoone/00/04/18/618ce69f7a3326530.jpg',
+  },
+],
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '交流频道',
