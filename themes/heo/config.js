@@ -39,11 +39,11 @@ const CONFIG = {
   ],
   HEO_INFO_CARD_URL: 'https://github.com/tangly1024/NotionNext', // 个人资料底部按钮链接
 
-// 用户技能图标 ; 两两一组
-  GROUP_ICONS: [
+  // 用户技能图标
+  HEO_GROUP_ICONS: [
     {
       title_1: 'AfterEffect',
-      img_1: 'https://pic.616pic.com/photoone/00/04/18/618ce69f7a3326530.jpg',
+      img_1: '/images/heo/20239df3f66615b532ce571eac6d14ff21cf072602.webp',
       color_1: '#989bf8',
       title_2: 'Sketch',
       img_2: '/images/heo/2023e0ded7b724a39f12d59c3dc8fbdc7cbe074202.webp',
