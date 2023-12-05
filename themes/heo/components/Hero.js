@@ -85,7 +85,7 @@ function Banner(props) {
         <div
           id="banner-title"
           className="flex flex-col absolute top-10 left-10"
-          style={{ backgroundColor: 'rgba(0, 50, 255, 0.3)' }}
+          style={{ backgroundColor: 'rgba(0, 0, 255, 0.3)' }}
         >
           <div className="text-4xl font-bold mb-3 dark:text-white">
             {siteConfig('HEO_HERO_TITLE_1', null, CONFIG)}
