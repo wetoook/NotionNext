@@ -39,16 +39,6 @@ export function InfoCard(props) {
 
       <div className='flex justify-between'>
         {/* 不再包含社交按钮 */}
-        {/* <div className='flex space-x-3  hover:text-black dark:hover:text-white'>
-          <div className='bg-indigo-400 p-2 rounded-full  transition-colors duration-200 dark:bg-yellow-500 dark:hover:bg-black hover:bg-white'>
-            <Link href='/about'><GlobeAlt className={'w-6 h-6'} /></Link>
-          </div>
-          <div className='bg-indigo-400 p-2 rounded-full w-10 items-center flex justify-center transition-colors duration-200 dark:bg-yellow-500 dark:hover:bg-black hover:bg-white'>
-            <Link href={siteConfig('HEO_INFO_CARD_URL', null, CONFIG)}><i className='fab fa-github text-xl' />
-            </Link>
-          </div>
-        </div> */}
-        <MoreButton />
       </div>
     </Card>
   )
@@ -69,18 +59,4 @@ function GreetingsWords() {
   return <div onClick={handleChangeGreeting} className=' select-none cursor-pointer py-1 px-2 bg-indigo-400 hover:bg-indigo-50  hover:text-indigo-950 dark:bg-yellow-500 dark:hover:text-white dark:hover:bg-black text-sm rounded-lg  duration-200 transition-colors'>
     {greeting}
   </div>
-}
-
-/**
- * 了解更多按鈕
- * @returns
- */
-function MoreButton() {
-  return <Link href='/about'>
-    <div className={'group bg-indigo-400 dark:bg-yellow-500 hover:bg-white dark:hover:bg-black hover:text-black dark:hover:text-white flex items-center transition-colors duration-200 py-2 px-3 rounded-full space-x-1'}>
-      {/* 不再包含了解更多按钮 */}
-      {/* <ArrowRightCircle className={'group-hover:stroke-black dark:group-hover:stroke-white w-6 h-6 transition-all duration-100'} />
-      <div className='font-bold'>了解更多</div> */}
-    </div>
-  </Link>
 }
